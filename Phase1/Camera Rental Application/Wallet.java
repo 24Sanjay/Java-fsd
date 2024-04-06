@@ -1,0 +1,22 @@
+package Phase1Project;
+
+public class Wallet {
+
+	private double balance;
+
+	public Wallet() {
+		this.balance = 0.0;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+	public void deposit(double amount) {
+		balance += amount;
+	}
+}
